@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { BiAddToQueue } from "react-icons/bi";
+import { MdAddShoppingCart } from "react-icons/md";
+
 
 
 function AddTodo({ onNewItem }) {
@@ -40,7 +41,7 @@ function AddTodo({ onNewItem }) {
             className="btn btn-success kg-button"
             onClick={handleAddButtonClicked}
           >
-            <BiAddToQueue />
+            <MdAddShoppingCart />
           </button>
         </div>
       </div>
